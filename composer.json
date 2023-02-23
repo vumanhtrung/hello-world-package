@@ -1,0 +1,17 @@
+{
+    "name": "vumanhtrung/hello-world-package",
+    "description": "A hello world composer private package.",
+    "autoload": {
+        "psr-4": {
+            "Vumanhtrung\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Trung Vu",
+            "email": "manhtrungit8x@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
